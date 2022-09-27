@@ -1,0 +1,21 @@
+.shop-container {
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.shop-product-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 100px;
+}
+
+.shop-sidebar {
+  background: rgba(255, 153, 0, 0.3);
+  padding: 25px;
+}
+
+.shop-sidebar-inner {
+  position: sticky;
+  top: 30px;
+}
